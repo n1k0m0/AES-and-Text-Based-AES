@@ -542,9 +542,16 @@ namespace AES
 
         #region Encryption and decryption
 
-        public string EncryptECB(string plaintext, string key)
+        public string PreparePlaintext(string plaintext)
         {
-            while(plaintext.Length % 16 > 0)
+            plaintext = plaintext.ToUpper();
+            plaintext = plaintext.Replace(" ", "X");
+            return plaintext;
+        }
+
+        public string EncryptECB(string plaintext, string key)
+        {            
+            while (plaintext.Length % 16 > 0)
             {
                 plaintext += "X";
             }
