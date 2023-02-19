@@ -7,6 +7,7 @@ These implementations were created for my YouTube channel "Cryptography for ever
 
 My YouTube channel: https://www.youtube.com/c/CrypTool2/
 My blog: https://www.kopaldev.de
+Another repository with source code in C# for a console application which allows file encryption using AES and a password: https://github.com/n1k0m0/FileCrypt
 
 ## AES
 Implementation of the Advanced Encryption Standard (AES). For details on AES/Rijndael, see 
