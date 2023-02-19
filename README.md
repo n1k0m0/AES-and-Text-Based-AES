@@ -12,7 +12,7 @@ My blog: https://www.kopaldev.de
 Implementation of the Advanced Encryption Standard (AES). For details on AES/Rijndael, see 
 - Daemen, Joan; Rijmen, Vincent (2002). The Design of Rijndael: AES – The Advanced Encryption Standard. Springer. ISBN 978-3-540-42580-9.
 
-The purpose of this implementation is to make it easily as possible to understand AES. Thus, we tried to create only
+The purpose of this implementation is to make it as easily as possible to understand AES. Thus, we tried to create only
 easy to read implementations of the primitives. Also, there is no further speed optimization with lookup tables for the
 Galois arithmetic being the exception. Finally, there are no special security measures like protecting keys in
 memory or measures against side channel attacks. Thus, this implementation should be only used for educational purposes
